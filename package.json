@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0-alpha.1",
+  "scripts": {
+    "dev": "vite --host --base=/",
+    "build": "tsc && vite build --base=/",
+    "serve": "vite preview --host --base=/"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/google.accounts": "^0.0.14",
+    "sass": "^1.74.1",
+    "typescript": "^5.4.4",
+    "vite": "^5.2.8"
+  }
+}
